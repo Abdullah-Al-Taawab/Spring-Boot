@@ -26,7 +26,7 @@ Actuator brings production-ready features to our application. Monitoring our app
 # Spring boot actuator – Security
 We don’t want to share out application’s information to others. So, we can add this dependency in our pom.xml file. When anyone will try to look into actuator info then spring security will prompt for login. (username: user (by default), password generated in console log).
 # Running from the Command-Line
-1: Use java -jar
-2: Use Spring Boot Maven plugin
--	mvnw spring-boot:run
+- Use java -jar
+- Use Spring Boot Maven plugin
+  (mvnw spring-boot:run)
 
