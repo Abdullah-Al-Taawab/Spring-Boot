@@ -1,3 +1,7 @@
+![Spring Boot](https://static.javatpoint.com/springboot/images/what-is-spring-boot.png)
+
+
+
 # What is Spring Boot?
 Spring Boot is a framework that allows developers to create standalone applications with no or little configuration. It is designed specifically for creating dynamic web pages and microservices. Spring Boot is a Spring module that provides the RAD (Rapid Application Development) feature to the Spring framework. Spring Boot Framework is widely used to develop REST APIs
 # Why spring boot rather than using spring?
