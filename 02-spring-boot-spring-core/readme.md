@@ -22,5 +22,11 @@ __Disadvantages__ :
 - If you have web related components like __@RestController__, not created until requested
 - May not discover configuration issues until too late
 - Need to make sure you have enough memory for all beans once created
+# Configuring Beans With Java Code :
+First, we have to create a Configure class with __@Configuration__ Annotation. Then define the __@Bean__ method to configure the Bean. Lastly, Inject the bean into our controller. 
+# @Bean Annotation :
+Spring __@Bean__ Annotation is applied on a method to specify that it returns a bean to be managed by Spring context. Spring Bean annotation is usually declared in Configuration classes methods. In this case, bean methods may reference other __@Bean__ methods in the same class by calling them directly.
+
+__@Bean__ Annotation make an existing third-party class available in Spring Framework. You may not have access to the source code of third-party class and you want to use that class as a Spring Bean. 
 
 
