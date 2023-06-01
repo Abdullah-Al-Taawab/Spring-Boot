@@ -29,4 +29,10 @@ Spring __@Bean__ Annotation is applied on a method to specify that it returns a 
 
 __@Bean__ Annotation make an existing third-party class available in Spring Framework. You may not have access to the source code of third-party class and you want to use that class as a Spring Bean. 
 
+# @Bean Scopes :
+Scope mainly refers to the lifecycle of a bean. Like how long does a bean live or how many instance are created. 
+Spring Bean Scopes allows us to have more granular control of the bean instances creation. Sometimes we want to create bean instance as singleton but in some other cases we might want it to be created on every request or once in a session.
+-	Singleton Scope
+-	Prototype Scope 
+-	Request Scope
 
