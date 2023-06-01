@@ -35,4 +35,10 @@ Spring Bean Scopes allows us to have more granular control of the bean instances
 -	Singleton Scope
 -	Prototype Scope 
 -	Request Scope
+# Singleton Scope :
+When we define a bean with the singleton scope, the container creates a single instance of that bean; all requests for that bean name will return the same object, which is cached. Any modifications to the object will be reflected in all references to the bean. This scope is the default value if no other scope is specified.
+# Prototype Scope:
+A new instance will be created every time the bean is requested from the spring container.
+# Request Scope:
+This is same as prototype scope however it’s meant to be used for web applications. A new instance of the bean will be created for each HTTP request.
 
